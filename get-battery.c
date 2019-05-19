@@ -1,6 +1,6 @@
 /* get-battery - print battery status and percent to stdout
  * 
- * Original Source from http://dwm.suckless.org/status_monitor/batterystatus.c
+ * Orignal Source from http://dwm.suckless.org/status_monitor/batterystatus.c
  * edited by djorborn at gmail dot com
  *
  * This program is free software: you can redistribute it and/or modify
