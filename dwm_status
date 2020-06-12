@@ -1,0 +1,19 @@
+#!/bin/sh
+
+date=$(date "+%a %b %d, %I:%M%p")
+
+if [ -e /sys/class/power_supply/BAT0/status ]; then
+b_j=$(cat /sys/class/power_supply/BAT0/status)
+	if [ "$b_s" == "Discharging" ]; then 
+		bat_status="-"; 
+	elif [ "$b_c" == "Full" ]; then 
+		bat_status="="; 
+	else bat_status="+"; 
+	fi
+	bat=$(cat /sys/class/power_supply/BAT0/capacity)
+	xsetroot -name "$bat_status$bat% | $date";
+else
+	xsetroot -name "$date";
+fi
+
+

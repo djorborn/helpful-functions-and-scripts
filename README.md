@@ -11,6 +11,9 @@ This is a shell script that catches the UP, DOWN, LEFT and RIGHT arrow keys as w
 It uses a trick to catch multi digit keys and works for most terminals.
 Orignal code source from [stackoverflow](https://stackoverflow.com/questions/10679188/casing-arrow-keys-in-bash/56200043#56200043)
 
+### dwm_status
+This along with `start_dwm_status` are the script I use to show system stats in dwm. 
+
 ## Contribute
 Please feel free to make a pull request if you feel like you have something that should be here. 
 
